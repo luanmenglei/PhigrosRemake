@@ -1,0 +1,587 @@
+{
+  "original_commit": "39c1eacc3c127bbe9097260c93b17611604c765b",
+  "archives": [
+    {
+      "name": "core.zip",
+      "sha256": "dd7e329e79b29c1fa276d3b9dfd1445172e1528723bc81a4c4eddd3dd7821746"
+    },
+    {
+      "name": "desktop.zip",
+      "sha256": "67855d685a5cfdf585b9fe1d29924a8bf307fa9489483241659ebf943cedde94"
+    },
+    {
+      "name": "assets.zip",
+      "sha256": "5c4bb77bbab05a9e151bd912a88f848a1ffca9fd55a25548775675a871bd9ec4"
+    },
+    {
+      "name": "assets.zip.001",
+      "sha256": "c90ec8025a56f01423239fdb862b249a4afca3f0c7b3b1c540a8e07ba073df52"
+    },
+    {
+      "name": "assets.zip.002",
+      "sha256": "8bbbea3dfc645bf71d4ac1ac7e6c258cb8db5429e17b0a05d3f62239f7e2fb9a"
+    },
+    {
+      "name": "assets.zip.003",
+      "sha256": "34143f7d4b8ce47cb8c8a3ed6904e2e77eeb9bca6abf0aa719a9c8d5b402aa78"
+    },
+    {
+      "name": "assets.zip.004",
+      "sha256": "0989bf3b10e32ab7db2858f3d9fd71f041be73ee50a2e2b40a82eca681df441b"
+    }
+  ],
+  "files": [
+    {
+      "archive": "core.zip",
+      "original_path": "core/build.gradle",
+      "path": "core/build.gradle",
+      "original_sha256": "90c3975ee81fa660308c38c2a21897abb8cdbcc729efa595dd246b74fdebebe6",
+      "extracted_sha256": "90c3975ee81fa660308c38c2a21897abb8cdbcc729efa595dd246b74fdebebe6",
+      "source_encoding": "utf-8"
+    },
+    {
+      "archive": "core.zip",
+      "original_path": "core/src/me/clesip/phirunner/Assets.java",
+      "path": "core/src/main/java/me/clesip/phirunner/Assets.java",
+      "original_sha256": "acd1ed1a79cf7a949af13e08fd0913ec79ecce6a8195859ac92c7171a1047eaa",
+      "extracted_sha256": "2d1c9be94c9eedd8b8e0c55c8c11ce64eaab76159995dded8390eac8211c89c2",
+      "source_encoding": "utf-8"
+    },
+    {
+      "archive": "core.zip",
+      "original_path": "core/src/me/clesip/phirunner/chart/file/ChartFile.java",
+      "path": "core/src/main/java/me/clesip/phirunner/chart/file/ChartFile.java",
+      "original_sha256": "a91104540cb740af3096ed4289db4755d9357480fd4a41d91d99e69b2997a4bb",
+      "extracted_sha256": "279de675d5c2e293c0ae7d2d04261c60167afabd32da81e1f3267ca432033488",
+      "source_encoding": "utf-8"
+    },
+    {
+      "archive": "core.zip",
+      "original_path": "core/src/me/clesip/phirunner/chart/file/JudgeLineDisappearEvent.java",
+      "path": "core/src/main/java/me/clesip/phirunner/chart/file/JudgeLineDisappearEvent.java",
+      "original_sha256": "748d588c2380c826bbfea3e4cef80864e68065f45879b9e49e42277760326dab",
+      "extracted_sha256": "ff871b3128fb1e104071a3b90bad39bd4464aa430b4068b3eb192ddb234dd52a",
+      "source_encoding": "utf-8"
+    },
+    {
+      "archive": "core.zip",
+      "original_path": "core/src/me/clesip/phirunner/chart/file/JudgeLineFile.java",
+      "path": "core/src/main/java/me/clesip/phirunner/chart/file/JudgeLineFile.java",
+      "original_sha256": "90dcc9e060a9e8297afc9ceaf3739b428828fc935dbf9ccb9fade4659110d078",
+      "extracted_sha256": "96e3259ca1e6cfcc5e8bf62498830a230c131dd32373850ca6b65f30122f5091",
+      "source_encoding": "utf-8"
+    },
+    {
+      "archive": "core.zip",
+      "original_path": "core/src/me/clesip/phirunner/chart/file/JudgeLineMoveEvent.java",
+      "path": "core/src/main/java/me/clesip/phirunner/chart/file/JudgeLineMoveEvent.java",
+      "original_sha256": "4a78ff464320d11ad3459dfd5f1e8cd0cc891bfa248486904703c62273542a22",
+      "extracted_sha256": "53cdd930427475127f2a992437090a10b2b9470f794d78aba300b2b678d838e5",
+      "source_encoding": "utf-8"
+    },
+    {
+      "archive": "core.zip",
+      "original_path": "core/src/me/clesip/phirunner/chart/file/JudgeLineRotateEvent.java",
+      "path": "core/src/main/java/me/clesip/phirunner/chart/file/JudgeLineRotateEvent.java",
+      "original_sha256": "5f4c10d082443315f471a1bc233f7198d363e848a19beb70fab1e2bccf6be8e8",
+      "extracted_sha256": "edbbd33368a9af98cf9e5e8f0110b8088ad209ffabf139bc8921a367528cb7c0",
+      "source_encoding": "utf-8"
+    },
+    {
+      "archive": "core.zip",
+      "original_path": "core/src/me/clesip/phirunner/chart/file/JudgeLineSpeedEvent.java",
+      "path": "core/src/main/java/me/clesip/phirunner/chart/file/JudgeLineSpeedEvent.java",
+      "original_sha256": "a141cb468dac8425acb87a4dcd422a8394c01ea56ada02218041ba07f586e538",
+      "extracted_sha256": "65e367bfce22eaa4e9ffd83558a5a5c40b8884033163e760f024043bb75cc98f",
+      "source_encoding": "utf-8"
+    },
+    {
+      "archive": "core.zip",
+      "original_path": "core/src/me/clesip/phirunner/chart/file/NoteFile.java",
+      "path": "core/src/main/java/me/clesip/phirunner/chart/file/NoteFile.java",
+      "original_sha256": "71ddc764222f28e5701b1c1c4ef345c0d4128775cea645376a181ad5facc598d",
+      "extracted_sha256": "f4c495e739c40b6c79a8242f18b525275a58dc08b4a0b3e564e6455a797a7b77",
+      "source_encoding": "utf-8"
+    },
+    {
+      "archive": "core.zip",
+      "original_path": "core/src/me/clesip/phirunner/chart/JudgeLine.java",
+      "path": "core/src/main/java/me/clesip/phirunner/chart/JudgeLine.java",
+      "original_sha256": "f3d1bd0ac332b0874a9f1839819682840d7d8e723813c28793485317e2ed6194",
+      "extracted_sha256": "942cb4ad70be3d94dc6de89f254d1ec851d7ce5cba6b3b068484a31f67e6e841",
+      "source_encoding": "utf-8"
+    },
+    {
+      "archive": "core.zip",
+      "original_path": "core/src/me/clesip/phirunner/chart/PhigrosChart.java",
+      "path": "core/src/main/java/me/clesip/phirunner/chart/PhigrosChart.java",
+      "original_sha256": "12a3fe5a832e764fe6e57b0abff96c481113380852c725daf3013a1829a826c1",
+      "extracted_sha256": "48cf0655e15d756626530e5fac1920f89188a75cdb3ef1364bf9f58108774edf",
+      "source_encoding": "utf-8"
+    },
+    {
+      "archive": "core.zip",
+      "original_path": "core/src/me/clesip/phirunner/PhiRunner.java",
+      "path": "core/src/main/java/me/clesip/phirunner/PhiRunner.java",
+      "original_sha256": "72ac7efb5ad434ec9adde7f7e7954ae04950cae2a6f6dc0bf00a371a7109a197",
+      "extracted_sha256": "72ac7efb5ad434ec9adde7f7e7954ae04950cae2a6f6dc0bf00a371a7109a197",
+      "source_encoding": "utf-8"
+    },
+    {
+      "archive": "core.zip",
+      "original_path": "core/src/me/clesip/phirunner/util/CommonUtil.java",
+      "path": "core/src/main/java/me/clesip/phirunner/util/CommonUtil.java",
+      "original_sha256": "8e3b3b5818a3057d49302b04cf3578af0f564cc15d041445d95071f7c52c8c9b",
+      "extracted_sha256": "3d7d2aef81fc4372cf1bf011f521a3341b11a6437c076c2ef606907a1c5b9ddd",
+      "source_encoding": "utf-8"
+    },
+    {
+      "archive": "core.zip",
+      "original_path": "core/src/me/clesip/phirunner/util/Judgement.java",
+      "path": "core/src/main/java/me/clesip/phirunner/util/Judgement.java",
+      "original_sha256": "0bd77dd13fd3ff91a7f6b36e5b3e97d78f26eabcba8ad7e6309ba046c50927a6",
+      "extracted_sha256": "c394c3bbbfecb03047b326fd2028e91c34a99d294010a3e3e7bda08062f95f19",
+      "source_encoding": "utf-8"
+    },
+    {
+      "archive": "core.zip",
+      "original_path": "core/src/me/clesip/phirunner/util/PhigrosUtil.java",
+      "path": "core/src/main/java/me/clesip/phirunner/util/PhigrosUtil.java",
+      "original_sha256": "1018be7cf5278d8a553d703bac177ddd5663827829aab9339cbaf7f0c84e93e4",
+      "extracted_sha256": "6b4883734880c2267aff091d1498105d739171a55e1cff4b11e1232596be2577",
+      "source_encoding": "utf-8"
+    },
+    {
+      "archive": "core.zip",
+      "original_path": "core/src/PhiRunner.gwt.xml",
+      "path": "legacy/PhiRunner.gwt.xml",
+      "original_sha256": "64f209c8b381f806d102371f30b241989f792b602edafd2e07d5bd5d538b1004",
+      "extracted_sha256": "64f209c8b381f806d102371f30b241989f792b602edafd2e07d5bd5d538b1004",
+      "source_encoding": "utf-8"
+    },
+    {
+      "archive": "desktop.zip",
+      "original_path": "desktop/build.gradle",
+      "path": "desktop/build.gradle",
+      "original_sha256": "e6e30263b420a850b67c237a92302312315816a4c8575793a7d2039d4fcd69e4",
+      "extracted_sha256": "e6e30263b420a850b67c237a92302312315816a4c8575793a7d2039d4fcd69e4",
+      "source_encoding": "utf-8"
+    },
+    {
+      "archive": "desktop.zip",
+      "original_path": "desktop/src/me/clesip/phirunner/DesktopLauncher.java",
+      "path": "desktop/src/main/java/me/clesip/phirunner/DesktopLauncher.java",
+      "original_sha256": "9de18e68088e24057a0609f043747c679d7fedc80f673b8fa254ebc9a79a54fb",
+      "extracted_sha256": "9de18e68088e24057a0609f043747c679d7fedc80f673b8fa254ebc9a79a54fb",
+      "source_encoding": "utf-8"
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/0.png",
+      "path": "assets/0.png",
+      "original_sha256": "0bad716f5b0b2710213bd229a9756850798e3734623a73229f08e9ab291281fc",
+      "extracted_sha256": "0bad716f5b0b2710213bd229a9756850798e3734623a73229f08e9ab291281fc",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/clickRaw.png",
+      "path": "assets/clickRaw.png",
+      "original_sha256": "1a662f6b86db8acb11bde9f234061434941f2c14f134303f7fba1474884910f1",
+      "extracted_sha256": "1a662f6b86db8acb11bde9f234061434941f2c14f134303f7fba1474884910f1",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/demo/.0.png",
+      "path": "assets/demo/.0.png",
+      "original_sha256": "3eb10792d1f0c7e07e7248273540f1952d9a5a2996f4b5df70ab026cd9f05517",
+      "extracted_sha256": "3eb10792d1f0c7e07e7248273540f1952d9a5a2996f4b5df70ab026cd9f05517",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/demo/.1.png",
+      "path": "assets/demo/.1.png",
+      "original_sha256": "706028e04fbac16a9079c7ea4ae8a6518fde18f731b7ae15427f72bc0170f0f7",
+      "extracted_sha256": "706028e04fbac16a9079c7ea4ae8a6518fde18f731b7ae15427f72bc0170f0f7",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/demo/.2.png",
+      "path": "assets/demo/.2.png",
+      "original_sha256": "ba662e9704a2db9e78cfdbc26d75f6342552bda8177ceea68ab705e031cf18d2",
+      "extracted_sha256": "ba662e9704a2db9e78cfdbc26d75f6342552bda8177ceea68ab705e031cf18d2",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/demo/.3.png",
+      "path": "assets/demo/.3.png",
+      "original_sha256": "50f1f705cc6a222c478f9a036e68b3c4d0d6cc269aa3c5051e0003d0035b48ba",
+      "extracted_sha256": "50f1f705cc6a222c478f9a036e68b3c4d0d6cc269aa3c5051e0003d0035b48ba",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/demo/a.json",
+      "path": "assets/demo/a.json",
+      "original_sha256": "26d00b7539694fd27e5c7edc05fb54f499a6b0e71e159fbf71bd27dd35a6126a",
+      "extracted_sha256": "26d00b7539694fd27e5c7edc05fb54f499a6b0e71e159fbf71bd27dd35a6126a",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/demo/a.png",
+      "path": "assets/demo/a.png",
+      "original_sha256": "0f58601787ffdef8bf02fe6f8c2c5bb2c0b5e9f200c0fd7115b20b798444aba7",
+      "extracted_sha256": "0f58601787ffdef8bf02fe6f8c2c5bb2c0b5e9f200c0fd7115b20b798444aba7",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/demo/a.wav",
+      "path": "assets/demo/a.wav",
+      "original_sha256": "746d6c4ec9d54f1212df6881139a71e672a27d1528e25e6e5ed73666f963b2ce",
+      "extracted_sha256": "746d6c4ec9d54f1212df6881139a71e672a27d1528e25e6e5ed73666f963b2ce",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/demo/info.csv",
+      "path": "assets/demo/info.csv",
+      "original_sha256": "2bf61a847662dd971ae037b11701bf0d46a36ba95207b8e4b4fc43e00973e933",
+      "extracted_sha256": "2bf61a847662dd971ae037b11701bf0d46a36ba95207b8e4b4fc43e00973e933",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/demo/line.csv",
+      "path": "assets/demo/line.csv",
+      "original_sha256": "6e9861beced4a312a6745e1ee9da62d79a00e09f11bc912f04b65e464be03a8e",
+      "extracted_sha256": "6e9861beced4a312a6745e1ee9da62d79a00e09f11bc912f04b65e464be03a8e",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/demo/SpasmodicSP.json",
+      "path": "assets/demo/SpasmodicSP.json",
+      "original_sha256": "bc80581ff3df6782de3e324b64b0d4a2196564171ceb5f464f6d393356be222e",
+      "extracted_sha256": "bc80581ff3df6782de3e324b64b0d4a2196564171ceb5f464f6d393356be222e",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/demo/SpasmodicSP.ogg",
+      "path": "assets/demo/SpasmodicSP.ogg",
+      "original_sha256": "bfa22f1f1061dbcd69606a9c176279c831a311a26f1442e4776bac07c1ce9a68",
+      "extracted_sha256": "bfa22f1f1061dbcd69606a9c176279c831a311a26f1442e4776bac07c1ce9a68",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/demo/SpasmodicSP.png",
+      "path": "assets/demo/SpasmodicSP.png",
+      "original_sha256": "9186b275bfad4eb27f107552ad58648f961fe5b92f2a099f55c9849e478f54c6",
+      "extracted_sha256": "9186b275bfad4eb27f107552ad58648f961fe5b92f2a099f55c9849e478f54c6",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/demo/SpasmodicSP.wav",
+      "path": "assets/demo/SpasmodicSP.wav",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "extracted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/demo/Theme Of SSS.jpg",
+      "path": "assets/demo/Theme Of SSS.jpg",
+      "original_sha256": "0bd869ef7fdfe87ec82f1f5e93fef3aab849a86fa5388480437700fa788c448f",
+      "extracted_sha256": "0bd869ef7fdfe87ec82f1f5e93fef3aab849a86fa5388480437700fa788c448f",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/demo/Theme Of SSS.mp3",
+      "path": "assets/demo/Theme Of SSS.mp3",
+      "original_sha256": "1d619e9c5bdaa358c13c848945976fec9ecaf29f526d09c6aa53be67f2bd8633",
+      "extracted_sha256": "1d619e9c5bdaa358c13c848945976fec9ecaf29f526d09c6aa53be67f2bd8633",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/demo/Theme Of SSS.pec",
+      "path": "assets/demo/Theme Of SSS.pec",
+      "original_sha256": "296ed619038e0a2b3888514bcaa05c6cfbce79804c75bdaa8b8dbf9c99b714c0",
+      "extracted_sha256": "296ed619038e0a2b3888514bcaa05c6cfbce79804c75bdaa8b8dbf9c99b714c0",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/Drag.png",
+      "path": "assets/Drag.png",
+      "original_sha256": "66a9ac63b328e32737ce9f92082fea5948732c311dd034efe2b43e653db5f22b",
+      "extracted_sha256": "66a9ac63b328e32737ce9f92082fea5948732c311dd034efe2b43e653db5f22b",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/DragHL.png",
+      "path": "assets/DragHL.png",
+      "original_sha256": "a3b8913d8c5c5410bc45b4ecc629ca97e30fc3ae3a73f49c91964b612a0a62ea",
+      "extracted_sha256": "a3b8913d8c5c5410bc45b4ecc629ca97e30fc3ae3a73f49c91964b612a0a62ea",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/Flick.png",
+      "path": "assets/Flick.png",
+      "original_sha256": "cd3f4c4a4204a5d3ddd52468a045c5ad4b9bee3e5f0e9584bacf931cbc9dc9a9",
+      "extracted_sha256": "cd3f4c4a4204a5d3ddd52468a045c5ad4b9bee3e5f0e9584bacf931cbc9dc9a9",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/FlickHL.png",
+      "path": "assets/FlickHL.png",
+      "original_sha256": "2b2e2ca676195abb6f14a3b73d0a070f20839d7ccb2cd48ff71c5fb1df30437c",
+      "extracted_sha256": "2b2e2ca676195abb6f14a3b73d0a070f20839d7ccb2cd48ff71c5fb1df30437c",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/HitSong0.ogg",
+      "path": "assets/HitSong0.ogg",
+      "original_sha256": "602924a63344bfd85795614050b0fa74a280c51cf1ec477af82a0bc759c3ca41",
+      "extracted_sha256": "602924a63344bfd85795614050b0fa74a280c51cf1ec477af82a0bc759c3ca41",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/HitSong1.ogg",
+      "path": "assets/HitSong1.ogg",
+      "original_sha256": "177bdf34c498d4a85c9642e128cf6f8b52c0c14e45515a2aee2b8874dfe70dd5",
+      "extracted_sha256": "177bdf34c498d4a85c9642e128cf6f8b52c0c14e45515a2aee2b8874dfe70dd5",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/HitSong2.ogg",
+      "path": "assets/HitSong2.ogg",
+      "original_sha256": "11e4b951e025b42041d2b3a4c661bd3ddf6433c9e4723751e4db017541f1e650",
+      "extracted_sha256": "11e4b951e025b42041d2b3a4c661bd3ddf6433c9e4723751e4db017541f1e650",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/Hold.png",
+      "path": "assets/Hold.png",
+      "original_sha256": "9c528e7e65acc8008bd6d20df529752869a9037a30b6a9e59026ec792d11a5c9",
+      "extracted_sha256": "9c528e7e65acc8008bd6d20df529752869a9037a30b6a9e59026ec792d11a5c9",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/HoldEnd.png",
+      "path": "assets/HoldEnd.png",
+      "original_sha256": "d0e10a89d40f7509542d3473235879ba9b7b31ad9dc796264bbeb66103136136",
+      "extracted_sha256": "d0e10a89d40f7509542d3473235879ba9b7b31ad9dc796264bbeb66103136136",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/HoldHead.png",
+      "path": "assets/HoldHead.png",
+      "original_sha256": "48d34c2a9cf35e62f576dc9457620d9ad66383d5986abdabdd3376290675cc8d",
+      "extracted_sha256": "48d34c2a9cf35e62f576dc9457620d9ad66383d5986abdabdd3376290675cc8d",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/HoldHeadHL.png",
+      "path": "assets/HoldHeadHL.png",
+      "original_sha256": "d8666fcdf2623c4c61c1d8f84d3da16461744ed3eea86c81943c4f984762db57",
+      "extracted_sha256": "d8666fcdf2623c4c61c1d8f84d3da16461744ed3eea86c81943c4f984762db57",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/HoldHL.png",
+      "path": "assets/HoldHL.png",
+      "original_sha256": "d034b4dac9fb5826e97571eb99036a6f9c795a6aa43d61aeae0a5da17b876977",
+      "extracted_sha256": "d034b4dac9fb5826e97571eb99036a6f9c795a6aa43d61aeae0a5da17b876977",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/JudgeLine.png",
+      "path": "assets/JudgeLine.png",
+      "original_sha256": "c99e066ca06bdb44f9b23a07edc26d40d3730dfb956710a8927ff24767b6b4d0",
+      "extracted_sha256": "c99e066ca06bdb44f9b23a07edc26d40d3730dfb956710a8927ff24767b6b4d0",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/LevelOver0.ogg",
+      "path": "assets/LevelOver0.ogg",
+      "original_sha256": "0fdf8a8421c1c832662a82959359a8807822607b31c6eb91e55880750b7287b9",
+      "extracted_sha256": "0fdf8a8421c1c832662a82959359a8807822607b31c6eb91e55880750b7287b9",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/LevelOver0_v2.ogg",
+      "path": "assets/LevelOver0_v2.ogg",
+      "original_sha256": "b55aacfda8a4175c60905d2f79faaf22c310013bce62823b1eb619196408fe61",
+      "extracted_sha256": "b55aacfda8a4175c60905d2f79faaf22c310013bce62823b1eb619196408fe61",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/LevelOver1.ogg",
+      "path": "assets/LevelOver1.ogg",
+      "original_sha256": "3e870bf7d8d6296414e4280c281bee36656c56c67e87609a473c2f7699fd84e8",
+      "extracted_sha256": "3e870bf7d8d6296414e4280c281bee36656c56c67e87609a473c2f7699fd84e8",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/LevelOver1.png",
+      "path": "assets/LevelOver1.png",
+      "original_sha256": "9eded1f1d534fd6bdfe9c943d9122b92c5bc7b5ab0dd3eae0223e2a5125366c5",
+      "extracted_sha256": "9eded1f1d534fd6bdfe9c943d9122b92c5bc7b5ab0dd3eae0223e2a5125366c5",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/LevelOver1_v2.ogg",
+      "path": "assets/LevelOver1_v2.ogg",
+      "original_sha256": "2dcd4f2b4e78545cdebf57796787319519bde32ffbe12e43728eaa53b1c580ad",
+      "extracted_sha256": "2dcd4f2b4e78545cdebf57796787319519bde32ffbe12e43728eaa53b1c580ad",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/LevelOver2.ogg",
+      "path": "assets/LevelOver2.ogg",
+      "original_sha256": "04ebf1c7cd4c11fc5e58c3cd41cb7e5b9d688d7ec92c888e2022bc8ce4e20609",
+      "extracted_sha256": "04ebf1c7cd4c11fc5e58c3cd41cb7e5b9d688d7ec92c888e2022bc8ce4e20609",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/LevelOver2_v2.ogg",
+      "path": "assets/LevelOver2_v2.ogg",
+      "original_sha256": "c77c73d17a58cc98a57941f23c8cd7864063fcbbe0fd79081abf6f21c6bacc17",
+      "extracted_sha256": "c77c73d17a58cc98a57941f23c8cd7864063fcbbe0fd79081abf6f21c6bacc17",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/LevelOver3.ogg",
+      "path": "assets/LevelOver3.ogg",
+      "original_sha256": "318944ebdf175d9128f786e3fefa9692402c2ea43e8a06d110e4a5d969704835",
+      "extracted_sha256": "318944ebdf175d9128f786e3fefa9692402c2ea43e8a06d110e4a5d969704835",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/LevelOver3.png",
+      "path": "assets/LevelOver3.png",
+      "original_sha256": "5bb24674f74c23a10c8063361f6f9d934d7a19e3917171e262178b6fd8763f06",
+      "extracted_sha256": "5bb24674f74c23a10c8063361f6f9d934d7a19e3917171e262178b6fd8763f06",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/LevelOver3_v2.ogg",
+      "path": "assets/LevelOver3_v2.ogg",
+      "original_sha256": "a87a26b47ac53085f955e09a6372e48eb987c7693920c552fa6f9b83ac6ac248",
+      "extracted_sha256": "a87a26b47ac53085f955e09a6372e48eb987c7693920c552fa6f9b83ac6ac248",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/LevelOver4.png",
+      "path": "assets/LevelOver4.png",
+      "original_sha256": "d663ce523196cc9f59a31eaec8082531efcffa999ad3ff42f6c8b8d7a32d64df",
+      "extracted_sha256": "d663ce523196cc9f59a31eaec8082531efcffa999ad3ff42f6c8b8d7a32d64df",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/LevelOver5.png",
+      "path": "assets/LevelOver5.png",
+      "original_sha256": "6ebc0a8be6310df1b9fb0c94c394ba172f7017fafe750800f42c921c64eb528b",
+      "extracted_sha256": "6ebc0a8be6310df1b9fb0c94c394ba172f7017fafe750800f42c921c64eb528b",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/mute.ogg",
+      "path": "assets/mute.ogg",
+      "original_sha256": "1c54e280f4e5b589e38c79eeb25f6a65415d73d070a7a2498fc7ebd0e0d313b5",
+      "extracted_sha256": "1c54e280f4e5b589e38c79eeb25f6a65415d73d070a7a2498fc7ebd0e0d313b5",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/Pause.png",
+      "path": "assets/Pause.png",
+      "original_sha256": "08a507cc6c3911e2e37bc0440438f126558f2d6a3bdf06005ef46a02f2d64498",
+      "extracted_sha256": "08a507cc6c3911e2e37bc0440438f126558f2d6a3bdf06005ef46a02f2d64498",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/ProgressBar.png",
+      "path": "assets/ProgressBar.png",
+      "original_sha256": "099885698bd90cb99c25494eb34406ad3e911c324658b39e6989c847f03f6479",
+      "extracted_sha256": "099885698bd90cb99c25494eb34406ad3e911c324658b39e6989c847f03f6479",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/Rank.png",
+      "path": "assets/Rank.png",
+      "original_sha256": "d473f8453d7b34d235bdecf697538de5506295ef2fde10b4fe87293a3a0dddd6",
+      "extracted_sha256": "d473f8453d7b34d235bdecf697538de5506295ef2fde10b4fe87293a3a0dddd6",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/SongsNameBar.png",
+      "path": "assets/SongsNameBar.png",
+      "original_sha256": "29f4a5913695f60e6e1f1cd81cd81905802509cb598bd3ce9c143c4b10ee5b8a",
+      "extracted_sha256": "29f4a5913695f60e6e1f1cd81cd81905802509cb598bd3ce9c143c4b10ee5b8a",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/Tap.png",
+      "path": "assets/Tap.png",
+      "original_sha256": "5a6cc0d720490599954ba753ab1c24e08d88aabfb9d03f700ab69219d7180695",
+      "extracted_sha256": "5a6cc0d720490599954ba753ab1c24e08d88aabfb9d03f700ab69219d7180695",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/Tap2.png",
+      "path": "assets/Tap2.png",
+      "original_sha256": "12c2cb3110ac0c1c0d91fd8c3808a5ffe8bb8588cffd47ae3f482f43e44b1c64",
+      "extracted_sha256": "12c2cb3110ac0c1c0d91fd8c3808a5ffe8bb8588cffd47ae3f482f43e44b1c64",
+      "source_encoding": null
+    },
+    {
+      "archive": "assets.zip",
+      "original_path": "assets/TapHL.png",
+      "path": "assets/TapHL.png",
+      "original_sha256": "9ddd0a15051990caa696198b62c58a93ff9740a2972e34ecb76a5996ddbfe3b0",
+      "extracted_sha256": "9ddd0a15051990caa696198b62c58a93ff9740a2972e34ecb76a5996ddbfe3b0",
+      "source_encoding": null
+    }
+  ]
+}

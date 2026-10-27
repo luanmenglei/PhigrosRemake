@@ -1,0 +1,53 @@
+dependencies {
+    implementation project(':core')
+    implementation "com.badlogicgames.gdx:gdx-backend-lwjgl3:$gdxVersion"
+    implementation "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"
+}
+
+sourceSets.main.resources.srcDirs = [rootProject.file('assets')]
+def launcher = 'me.clesip.phirunner.DesktopLauncher'
+def isMac = System.getProperty('os.name').toLowerCase(Locale.ROOT).contains('mac')
+
+tasks.register('run', JavaExec) {
+    group = 'application'
+    description = 'Run the bundled demo chart.'
+    dependsOn classes
+    mainClass = launcher
+    classpath = sourceSets.main.runtimeClasspath
+    standardInput = System.in
+    if (isMac) { jvmArgs '-XstartOnFirstThread' }
+}
+
+tasks.register('dist', Jar) {
+    group = 'distribution'
+    description = 'Build a runnable JAR including dependencies and assets.'
+    dependsOn classes, configurations.runtimeClasspath
+    archiveFileName = 'PhigrosRemake.jar'
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    manifest { attributes 'Main-Class': launcher }
+    from sourceSets.main.output
+    from { configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) } }
+    exclude 'META-INF/*.SF', 'META-INF/*.RSA', 'META-INF/*.DSA'
+}
+
+tasks.register('smokeTest', JavaExec) {
+    group = 'verification'
+    description = 'Render a few hidden, silent frames using the bundled demo.'
+    dependsOn testClasses
+    mainClass = 'me.clesip.phirunner.DesktopSmokeTest'
+    classpath = sourceSets.test.runtimeClasspath
+    args layout.buildDirectory.file('reports/smoke.png').get().asFile.absolutePath
+    if (isMac) { jvmArgs '-XstartOnFirstThread' }
+}
+
+tasks.register('smokeTestDist', JavaExec) {
+    group = 'verification'
+    description = 'Render the packaged demo from a directory without loose assets.'
+    dependsOn testClasses, dist
+    mainClass = 'me.clesip.phirunner.DesktopSmokeTest'
+    classpath = files(sourceSets.test.output.classesDirs, tasks.named('dist').flatMap { it.archiveFile })
+    workingDir layout.buildDirectory.dir('packaged-smoke').get().asFile
+    doFirst { workingDir.mkdirs() }
+    args layout.buildDirectory.file('reports/smoke-dist.png').get().asFile.absolutePath
+    if (isMac) { jvmArgs '-XstartOnFirstThread' }
+}
